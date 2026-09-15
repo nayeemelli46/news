@@ -1,0 +1,15 @@
+{
+  "autoLoad": true,
+  "pitch": 0,
+  "yaw": 0,
+  "type": "equirectangular",
+  "panorama": "https://pannellum.org/images/alma.jpg",
+  "hotSpots": [
+    {
+      "pitch": 0,
+      "yaw": 0,
+      "type": "info",
+      "text": "Welcome to 360 View"
+    }
+  ]
+}
